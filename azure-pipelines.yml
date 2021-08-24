@@ -31,6 +31,6 @@ jobs:
   - task: PublishTestResults@2
     inputs:
       testResultsFiles: outputxunit.xml
-      searchFolder: 'C:\data\1\s\'
+      searchFolder: 'D:\a\1\s\'
       condition: succeededOrFailed()
       displayName: 'Publish Test Results outputxunit.xml'
